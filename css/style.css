@@ -1,0 +1,85 @@
+.nav-area{
+	height: 65px;
+	z-index: 1;
+}
+
+nav{
+	/*background-color: #2dd8e0;*/
+	-webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.0);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+	color: white;
+	line-height: 3em;
+}
+
+.navbar-light .navbar-nav .nav-item a {
+    color: white;
+    font-weight: 300px;
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+	font-size: 35px;
+	font-weight: 500px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+	color: white;
+}
+
+.banner-area{
+	background: url(../img/backGround.jpg);
+	background-position: center;
+ 	background-size: cover;
+ 	position: relative;
+ 	height: 100%;
+}
+
+.banner-area::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    content: '';
+}
+
+.banner-table{
+    display: table;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    margin-top: -20%;
+}
+
+.banner-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+section.intro{
+	margin: 25%;
+}
+
+.welcome-text {
+	margin: 5%;
+}
+.welcome-text h3 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.intro h1 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 200;
+    margin: 0;
+}
+
